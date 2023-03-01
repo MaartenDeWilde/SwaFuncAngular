@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "swafunc-blog": {
+      "appLocation": "swafunc-blog",
+      "apiLocation": "api",
+      "outputLocation": "dist\\swafunc-blog",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4200"
+    }
+  }
+}
